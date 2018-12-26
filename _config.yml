@@ -22,7 +22,7 @@ url: 'https://www.opencharlotte.org'
 twitter_username: opencltbrigade
 github_username: opencltbrigade
 
-include: ['_pages']
+include: ['_pages', '_redirects']
 
 # Build settings
 markdown: kramdown
