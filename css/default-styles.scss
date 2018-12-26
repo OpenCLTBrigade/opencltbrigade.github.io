@@ -1,8 +1,15 @@
 ---
 ---
 
+$fa-font-path: '../fonts';
+
 // Bootstrap & custom theme
 @import 'default/core/bootswatch/variables';
 @import 'bootstrap/scss/bootstrap';
 @import 'default/core/bootswatch/theme';
 @import 'default/default-layout';
+
+@import 'font-awesome/fontawesome';
+@import 'font-awesome/regular';
+@import 'font-awesome/solid';
+@import 'font-awesome/brands';

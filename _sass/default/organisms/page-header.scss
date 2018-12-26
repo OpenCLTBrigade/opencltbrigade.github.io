@@ -1,0 +1,15 @@
+.page-header {
+  padding: 40px 0 24px 0;
+
+  &.bg-primary {
+    color: $white;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}

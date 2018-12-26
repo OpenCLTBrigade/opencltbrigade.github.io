@@ -19,8 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Open Charlotte
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://www.opencharlotte.org'
-twitter_username: opencltbrigade
-github_username: opencltbrigade
+
+social:
+  facebook_url: https://facebook.com/opencltbrigade
+  twitter_url: https://twitter.com/opencltbrigade
+  medium_url: https://medium.com/opencltbrigade
+  github_url: https://github.com/opencltbrigade
 
 include: ['_pages', '_redirects']
 
@@ -39,6 +43,8 @@ pagination:
   limit: 0
 
 navigation_top_left:
+  - title: 'Brigade'
+    url: /brigade/
   - title: 'Events'
     url: /events/
   - title: 'Projects'
@@ -51,8 +57,6 @@ navigation_top_right:
   - title: 'Civic Hack 2019'
     url: /civichack/
     new_window: true
-  - title: 'Donate'
-    url: /donate/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -5,6 +5,9 @@
 
 <body>
   {% include templates/default/header/index.html %}
+  {% if page.header %}
+    {% include templates/default/page-header.html %}
+  {% endif %}
   {{ content }}
   {% include templates/default/meta/footer.html %}
 </body>

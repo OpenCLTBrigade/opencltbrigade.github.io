@@ -2,6 +2,32 @@
   background-color: #fff;
   padding: 40px 0 20px 0;
 
+  .top-right {
+    display: flex;
+    align-items: center;
+    > div {
+      width: 100%;
+      text-align: right;
+
+      .get-involved-button {
+        display: none;
+      }
+
+      @include media-breakpoint-up(lg) {
+        .get-involved-button {
+          display: inline-block;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        .menu-button {
+          display: none;
+          @include invisible(hidden);
+        }
+      }
+    }
+  }
+
   img#openclt-logo {
     max-width: 150px;
     margin-bottom: 8px;
@@ -11,5 +37,29 @@
   nav.navbar {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .social-icons {
+    display: block;
+    font-size: 18px;
+    margin-left: -10px;
+    margin-top: 8px;
+    i {
+      padding: 0 12px;
+      color: $navbar-light-color;
+    }
+    i:hover {
+      color: $gray-800;
+    }
+
+    @include media-breakpoint-up(lg) {
+      display: inline;
+      font-size: 16px;
+      margin-top: 0px;
+      margin-left: 8px;
+      i {
+        padding: 0 8px;
+      }
+    }
   }
 }
