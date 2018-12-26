@@ -37,6 +37,22 @@ pagination:
   enabled: true
   per_page: 5
   limit: 0
+
+navigation_top_left:
+  - title: 'Events'
+    url: /events/
+  - title: 'Projects'
+    url: /projects/
+    new_window: true
+  - title: 'About Us'
+    url: /about/
+
+navigation_top_right:
+  - title: 'Civic Hack 2019'
+    url: /civichack/
+    new_window: true
+  - title: 'Donate'
+    url: /donate/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
