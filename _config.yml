@@ -22,8 +22,13 @@ url: 'https://www.opencharlotte.org'
 twitter_username: opencltbrigade
 github_username: opencltbrigade
 
+include: ['_pages']
+
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-redirect-from
 
 pagination:
   permalink: '/page/:num/'
