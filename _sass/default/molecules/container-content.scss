@@ -1,0 +1,29 @@
+div.container-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  h2.heading {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  hr {
+    width: 75%;
+    margin-bottom: 1rem;
+  }
+
+  &.container-bg-white {
+    background: $white;
+  }
+  &.container-bg-light {
+    background: $gray-200;
+  }
+  &.container-bg-dark {
+    background: $gray-800;
+    color: $white;
+  }
+  &.container-bg-primary {
+    background: $primary;
+    color: $white;
+  }
+}

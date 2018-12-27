@@ -1,13 +1,17 @@
 ---
-permalink: '/code-of-conduct'
+permalink: '/code-of-conduct/'
 layout: 'default'
+header: 'Code of Conduct & Anti-Harassment Policy'
+description: 'We are dedicated to creating an open, inclusive community and atmosphere.'
 ---
 
-#### We are dedicated to creating an open, inclusive community and atmosphere.
+{::options parse_block_html="true" /}
 
-#### Open Charlotte’s Code of Conduct
+<div class="container"><div class="row"><div class="col-sm"><br/>
 
-##### The Open Charlotte community expects that Open Charlotte network activities, events, and digital forums:
+## Open Charlotte's Code of Conduct
+
+The Open Charlotte community expects that Open Charlotte network activities, events, and digital forums:
 
 - Are a safe and respectful environment for all participants.
 - Are a place where people are free to fully express their identities.
@@ -24,7 +28,9 @@ layout: 'default'
 
 Open Charlotte reserves the right to ask anyone in violation of these policies not to participate in Open Charlotte network activities, events, and digital forums.
 
-#### Open Charlotte’s Anti-Harassment Policy
+---
+
+## Open Charlotte’s Anti-Harassment Policy
 
 All Open Charlotte network activities, events, and digital forums and their staff, presenters, and participants are held to an anti-harassment policy, included below.
 
@@ -46,12 +52,14 @@ We value your attendance and hope that by communicating these expectations widel
 
 This policy is based on several other policies, including the Ohio LinuxFest anti-harassment policy, written by Esther Filderman and Beth Lynn Eicher, and the Con Anti-Harassment Project. Mary Gardiner, Valerie Aurora, Sarah Smith, and Donna Benjamin generalized the policies and added supporting material. Many members of LinuxChix, Geek Feminism, and other groups contributed to this work.
 
-##### Email Template for Anti-Harassment Reporting
+---
 
-SUBJECT: Safe Space alert at [EVENT NAME]
+## Email Template for Anti-Harassment Reporting
 
-I am writing because of harassment at
+> SUBJECT: Safe Space alert at [EVENT NAME]
+>
+> I am writing because of harassment at an Open Charlotte Communities event, (NAME, PLACE, DATE OF EVENT).
+>
+> You can reach me at (CONTACT INFO). Thank you.
 
-a Open Charlotte Communities event, (NAME, PLACE, DATE OF EVENT).
-
-You can reach me at (CONTACT INFO). Thank you.
+</div></div></div>

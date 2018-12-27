@@ -1,0 +1,69 @@
+---
+layout: default
+title: Open Charlotte Brigade
+permalink: '/brigade/'
+header: 'Open Charlotte Brigade'
+description: "Our volunteer army uses its time and talent to make Charlotte a more open and accessible community."
+---
+
+{% capture intro_content %}
+<img class="text-center brigade-can" src="/img/brigade/can.jpg" alt="Open Charlotte Brigade at a Community Action Night"/>
+<p>
+  Open Charlotte Brigade, started in 2014 as "Code for Charlotte," 
+  is a volunteer citizen brigade that uses technology and advocacy as a tool for open government, open data and 
+  civic engagement. When we see an opportunity to solve a problem or make services more accessible we work with 
+  community members and government partners to build the right tool or ensure the proper data is available.
+</p>
+{% endcapture %}
+
+{% capture cfa_content %}
+<div class="text-center" style="margin: 1rem auto;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mYzMl_HnEZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>
+  Open Charlotte Brigade is part of the Code for America Brigade Network. We share in our efforts with over
+  seventy other brigades located throughout the United States. Brigade members routinely meet both online and
+  in-person to tackle large challenges together, use technology to respond to crises throughout the country, 
+  and simply improve upon their own brigade's practices.
+</p>
+<div class="text-center">
+  <a class="btn btn-lg btn-danger" href="https://brigade.codeforamerica.org" target="_blank">
+    View the Brigade Network
+  </a>
+</div>
+{% endcapture %}
+
+{% capture projects_content %}
+<p>
+  Want to try your hand at being a project lead? Check out our Project Ideas Trello Board and How To Start a Project page. Or maybe you have a project idea? Our Project Criteria page will help determine if it is civic project and give you the first steps.
+</p>
+{% endcapture %}
+
+{% capture attend_content %}
+  <p>
+    We meet frequently to allow our teams to collaborate in-person, discuss our goals, and welcome new volunteers.
+    All event attendees are expected to adhere to Open Charlotte's Code of Conduct and Anti-Harassment Policy. 
+  </p>
+  <div class="text-center">
+    <a class="btn btn-lg btn-info" href="/code-of-conduct/">Review our Policies</a>
+    <a class="btn btn-lg btn-info" href="/events/">View our Upcoming Events</a>
+  </div>
+{% endcapture %}
+
+{% capture open_nc_content %}
+  <p>
+    Open Charlotte Brigade is a proud member of the Open NC Collaborative, North Carolina’s Code for America Brigade. 
+    We coordinate our efforts with other volunteer brigades and partners throughout North Carolina to serve the
+    people of our state and improve our efforts locally in Charlotte.
+  </p>
+  <div class="text-center">
+    <a class="btn btn-lg btn-danger" href="./open-nc">Learn More</a>
+  </div>
+{% endcapture %}
+
+{% include molecules/container-content.html id="brigade-intro" class="container-bg-white" header="Think Volunteer Fire Brigade for the 21st Century" content=intro_content %}
+{% include molecules/container-content.html id="brigade-projects" class="container-bg-white" header="Local and National Impact" content=cfa_content %}
+{% include molecules/container-content.html id="brigade-projects" class="container-bg-light" header="Projects" content=projects_content %}
+{% include molecules/container-content.html id="brigade-attend" class="container-bg-primary" header="Attend a Meeting" content=attend_content %}
+{% include molecules/global-featured-event.html %}
+{% include molecules/container-content.html id="brigade-open-nc" class="container-bg-dark" header="We're Part of the Open NC Collaborative" content=open_nc_content %}

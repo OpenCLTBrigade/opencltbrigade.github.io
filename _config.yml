@@ -50,6 +50,8 @@ navigation_top_left:
   - title: 'Projects'
     url: /projects/
     new_window: true
+  - title: 'Code of Conduct'
+    url: /code-of-conduct/
   - title: 'About Us'
     url: /about/
 
@@ -57,6 +59,13 @@ navigation_top_right:
   - title: 'Civic Hack 2019'
     url: /civichack/
     new_window: true
+
+featured_event:
+  headline: 'Join us at Civic Hack 2019'
+  date: 'January 19th, 2019 - 9:00am to 5:00pm'
+  description: 'You’re invited to help us re-image government and community services. Join our community of civic hackers, as we come together to help address problems that matter and make Charlotte more awesome.'
+  href: 'https://civichack2019.splashthat.com/'
+  background_image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

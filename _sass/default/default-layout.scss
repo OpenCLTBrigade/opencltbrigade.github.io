@@ -1,2 +1,9 @@
+@import './molecules/container-content.scss';
+@import './molecules/featured-event.scss';
+@import './molecules/page-header';
+
 @import './organisms/site-header';
-@import './organisms/page-header';
+
+// Pages
+@import './pages/index.scss';
+@import './pages/brigade.scss';
