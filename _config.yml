@@ -56,8 +56,8 @@ navigation_top_left:
     url: /about/
 
 navigation_top_right:
-  - title: 'Civic Hack 2019'
-    url: /civichack/
+  - title: 'Next Meetup'
+    url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzcbfc/'
     new_window: true
 
 featured_event:
