@@ -63,9 +63,9 @@ navigation_top_right:
 featured_event:
   headline: 'Join us at our next Project Night'
   date: 'January 23rd, 2019 - 7:00pm to 9:00pm'
-  description: 'We welcome civic hackers of all varieties. Researchers, analysts, practitioners, designers, writers, photographers, have all contributed to Open Charlotte Brigade projects and organization.'
-  href: 'https://civichack2019.splashthat.com/'
-  background_image: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzcbfc/'
+  description: 'You’re invited to help us re-image government and community services. Join our community of civic hackers, as we come together to help address problems that matter and make Charlotte more awesome.'
+  href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzcbfc/'
+  background_image: '/img/event-bg.jpeg'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
