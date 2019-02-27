@@ -1,12 +1,17 @@
 #events-page {
+  h2 {
+    text-align: center;
+  }
+  hr {
+    margin: 10px auto 18px auto;
+    width: 50%;
+  }
+
+  .section-header {
+    padding: 50px 0;
+  }
+
   .event-description {
-    h2 {
-      text-align: center;
-    }
-    hr {
-      margin: 10px auto 18px auto;
-      width: 50%;
-    }
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -30,6 +35,18 @@
     }
     &.socials {
       background-image: url('/img/events/socials.jpg');
+    }
+    &.summit {
+      background-image: url('/img/events/summit.jpg');
+    }
+    &.congress {
+      background-image: url('/img/events/congress.jpg');
+    }
+    &.south-region-call {
+      background-image: url('/img/events/south-region-call.jpg');
+    }
+    &.opennc {
+      background-image: url('/img/events/opennc.jpg');
     }
   }
 }
