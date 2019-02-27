@@ -2,6 +2,103 @@
 title: Open Charlotte Events
 permalink: '/events/'
 layout: default
+header: 'Join us at an event!'
+description: "We frequently hold public meetings to collaborate on projects, hold community discussions and design sessions, and welcome new volunteers."
 ---
 
-{% include molecules/global-featured-event.html  %}
+<div id="events-page">
+  <div class="container">
+    <div class="row">
+      <!-- Community Nights -->
+      <div class="col-xs-12 col-lg-6 event-description">
+        <h2>Community Nights</h2>
+        <hr/>
+        <p>
+          Our "community night" events are a new part of our brigade schedule in 2019. We use this time to
+          onboard new volunteers looking to get involved with leadership opportunities or be an ambassador with our
+          community partners. Some nights we might have guest speakers (we’ll update the agenda if there is one). 
+          Our leadership team also holds a meeting later in the night to plan plan our future Brigade events, communications,
+          and direction.
+        </p>
+        <p>
+          Our next community night is {{site.next_events.community_date}}.
+        </p>
+        <a class="btn btn-danger" href="{{site.next_events.community_url}}" target="_blank">
+          Click here to RSVP
+        </a>
+      </div>
+      <div class="col-xs-12 col-lg-6 event-bg community-night">&nbsp;</div>
+    </div>
+    
+    <!-- Project Night -->
+    <div class="row">
+      <div class="col-xs-12 col-lg-6 event-bg project-night">&nbsp;</div>
+      <div class="col-xs-12 col-lg-6 event-description">
+        <h2>Project Nights</h2>
+        <hr/>
+        <p>
+          These are the traditional "hack night" sessions we've been holding since the brigade's inception. 
+          Here our brigade volunteers generally break out into teams and work on their respective projects in-person.
+          You will have the opportunity to learn more about what we do through a quick orientation, get connected to a 
+          project, discuss how to start your own project, or connect with our leadership team.
+        </p>
+        <p>
+          Our next project night is {{site.next_events.project_date}}.
+        </p>
+        <a class="btn btn-danger" href="{{site.next_events.project_url}}" target="_blank">
+          Click here to RSVP
+        </a>
+      </div>
+    </div>
+
+    <!-- Socials -->
+    <div class="row">
+      <div class="col-xs-12 col-lg-6 event-description">
+        <h2>Happy Hours</h2>
+        <hr/>
+
+        <p>
+          Come socialize with other members of Open Charlotte Brigade, meet some new people, 
+          and learn about leadership opportunities! This is a casual, quarterly event series
+          allowing attendees to unwind and get to know the people they're working with.
+          Just show up, grab a name tag, and join a conversation!
+        </p>
+        <p>
+          Our next happy hour is {{site.next_events.social_date}}.
+        </p>
+        <a class="btn btn-danger" href="{{site.next_events.social_url}}" target="_blank">
+          Click here to RSVP
+        </a>
+      </div>
+      <div class="col-xs-12 col-lg-6 event-bg socials">&nbsp;</div>
+    </div>
+
+    <!-- Hack for Change -->
+    <div class="row">
+      <div class="col-xs-12 col-lg-6 event-bg hack-for-change">&nbsp;</div>
+      <div class="col-xs-12 col-lg-6 event-description">
+        <h2>Hack for Change</h2>
+        <hr/>
+
+        <p>
+          Hack for Change is a big one day civic design-a-thon Open Charlotte holds to celebrate National Day of 
+          Civic Hacking. On this day, organizations all over the nation bring together community members and civic 
+          leaders to work with our local governments and tackle some our toughest challenges. 
+          We'll have more details on our 2019 event later this year!
+        </p>
+
+        <p>
+          <a href="https://www.codeforamerica.org/national-day-of-civic-hacking" target="_blank">
+            Learn more on the Code for America website
+          </a>
+        </p>
+
+
+        <a class="btn btn-primary" href="/newsletter/" target="_blank">
+          Sign up for Email Updates
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+

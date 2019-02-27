@@ -66,6 +66,14 @@ featured_event:
   description: 'You’re invited to help us re-image government and community services. Join our community of civic hackers, as we come together to help address problems that matter and make Charlotte more awesome.'
   href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzdbkc/'
   background_image: '/img/event-bg.jpeg'
+
+next_events:
+  community_date: 'March 13, 2019'
+  community_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzfbrb/'
+  project_date: 'February 27, 2019'
+  project_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzdbkc/'
+  social_date: 'Thursday, June 20 at Blue Blaze Brewing'
+  social_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/257928950/'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
