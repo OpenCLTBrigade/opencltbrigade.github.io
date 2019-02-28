@@ -57,21 +57,21 @@ navigation_top_left:
 
 navigation_top_right:
   - title: 'Next Meetup'
-    url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzdbrb/'
+    url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzfbrb/'
     new_window: true
 
 featured_event:
-  headline: 'Join us at our next Project Night'
-  date: 'February 27th, 2019 - 7:00pm to 9:00pm'
+  headline: 'Join us at our next Community Night'
+  date: 'March 13th, 2019 - 7:00pm to 9:00pm'
   description: 'You’re invited to help us re-image government and community services. Join our community of civic hackers, as we come together to help address problems that matter and make Charlotte more awesome.'
-  href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzdbkc/'
+  href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzfbrb/'
   background_image: '/img/event-bg.jpeg'
 
 next_events:
   community_date: 'March 13, 2019'
   community_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzfbrb/'
-  project_date: 'February 27, 2019'
-  project_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzdbkc/'
+  project_date: 'March 27, 2019'
+  project_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzfbkc/'
   social_date: 'Thursday, June 20 at Blue Blaze Brewing'
   social_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/257928950/'
 # Exclude from processing.
