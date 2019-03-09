@@ -4,6 +4,9 @@
   background-color: #2e9fd7;
   padding: 50px 0;
   color: #fefefe;
+  @include media-breakpoint-up(xl) {
+    padding: 75px 0;
+  }
 }
 
 /* Services */
