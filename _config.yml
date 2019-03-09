@@ -52,6 +52,9 @@ navigation_top_left:
     new_window: true
   - title: 'Code of Conduct'
     url: /code-of-conduct/
+  - title: 'Blog'
+    url: '/blog/'
+    new_window: true
   - title: 'About Us'
     url: /about/
 
