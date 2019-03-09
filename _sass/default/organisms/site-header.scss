@@ -38,28 +38,4 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-
-  .social-icons {
-    display: block;
-    font-size: 18px;
-    margin-left: -10px;
-    margin-top: 8px;
-    i {
-      padding: 0 12px;
-      color: $navbar-light-color;
-    }
-    i:hover {
-      color: $gray-800;
-    }
-
-    @include media-breakpoint-up(lg) {
-      display: inline;
-      font-size: 16px;
-      margin-top: 0px;
-      margin-left: 8px;
-      i {
-        padding: 0 8px;
-      }
-    }
-  }
 }
