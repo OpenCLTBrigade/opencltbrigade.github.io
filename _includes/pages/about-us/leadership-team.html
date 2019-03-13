@@ -1,0 +1,14 @@
+<div class="container-content container-bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading">Open Charlotte Brigade Leadership Team</h2><hr/>
+      </div>
+    </div>
+    <div class="row">
+      {% for member in site.leadership_team_members %}
+        {% include molecules/leadership-team-card.html photo=member.photo title=member.title name=member.name %}
+      {% endfor %}  
+    </div>
+  </div>
+</div>
