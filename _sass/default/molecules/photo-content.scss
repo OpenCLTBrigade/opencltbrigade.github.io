@@ -1,0 +1,23 @@
+.row.photo-content-row {
+  h2 {
+    text-align: center;
+  }
+  hr {
+    margin: 10px auto 18px auto;
+    width: 50%;
+  }
+
+  .photo-content-copy {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .photo-content-bg {
+    height: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+  }
+}
