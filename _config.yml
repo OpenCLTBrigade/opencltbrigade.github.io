@@ -77,6 +77,24 @@ next_events:
   project_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzfbkc/'
   social_date: 'Thursday, June 20 at Blue Blaze Brewing'
   social_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/257928950/'
+
+leadership_team_members:
+  - name: 'Jill Bjers'
+    title: 'Director / Brigade Captain'
+    photo: '/img/about/leadership/jill.jpg'
+  - name: 'Andrew Natoli'
+    title: 'Projects Lead'
+    photo: '/img/about/leadership/andrew.jpg'
+  - name: 'Kazi Smith'
+    title: 'Marketing Lead'
+    photo: '/img/about/leadership/kazi.jpg'
+  - name: 'Jim Van Fleet'
+    title: 'Senior Advisor'
+    photo: '/img/about/leadership/jim.jpg'
+  - name: 'Ryan Edge'
+    title: 'Technology Lead'
+  - name: 'Dawn Peterson'
+    title: 'Communications Lead'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

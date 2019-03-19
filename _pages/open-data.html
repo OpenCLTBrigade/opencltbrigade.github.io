@@ -1,0 +1,175 @@
+---
+layout: default
+title: Open Data
+permalink: '/open-data/'
+header: 'Open Data & Resources'
+---
+
+{% capture heading_content %}
+<p>
+  We believe public resources including data should be open, accessible, and friendly to all residents. 
+  That means not only should residents have access to public records, but those records should be available in a way 
+  that’s easy to request, receive, read, and utilize.
+</p>
+<p>
+  Below is a collecton of open data resources we have come across as well as resources for making public information requets.
+</p>
+{% endcapture %}
+
+{% capture charmeck_resources %}
+<ul>
+  <li>
+    <a href="http://opencharlotte.net/" target="_blank">
+      City of Charlotte Open Data Portal
+    </a>
+  </li>
+  <li>
+    <a href="http://maps.co.mecklenburg.nc.us/openmapping/" target="_blank">
+      Mecklenburg County Open Mapping
+    </a>
+  </li>
+  <li>
+    <a href="http://maps.co.mecklenburg.nc.us/openmapping/data.html" target="_blank">
+      Mecklenburg County Open Mapping Data
+    </a>
+  </li>
+</ul>
+{% endcapture %}
+
+{% capture state_resources %}
+<ul>
+  <li>
+    <a href="https://open-nc.org/" target="_blank">
+      Open-NC.org
+    </a>
+  </li>
+  <li>
+    <a href="https://www.osbm.nc.gov/facts-figures/state-data-center" target="_blank">
+      NC Office of State Budget and Management Data
+    </a>
+  </li>
+</ul>
+{% endcapture %}
+
+{% capture federal_resources %}
+<ul>
+  <li>
+    <a href="https://www.data.gov/" target="_blank">
+      Data.gov - The Federal Government's Open Data Portal
+    </a>
+  </li>
+  <li>
+    <a href="http://api.open.fec.gov/developers" target="_blank">
+      Open Federal Election Commission API
+    </a>
+  </li>
+  <li>
+    <a href="https://open.obamawhitehouse.archives.gov/search/type/dataset" target="_blank">
+      Open White House (Archived)
+    </a>
+  </li>
+  <li>
+    <a href="http://www.fec.gov/disclosure.shtml" target="_blank">
+      Federal Election Commission - Campaign Finance Reports & Data
+    </a>
+  </li>
+  <li>
+    <a href="http://www.fec.gov/data/DataCatalog.do" target="_blank">
+      Federal Election Commission - Disclosure Data Catalog
+    </a>
+  </li>
+  <li>
+    <a href="http://us-city.census.okfn.org/dataset/campaign-finance" target="_blank">
+      Campaign Finance Contributions
+    </a>
+  </li>
+</ul>
+{% endcapture %}
+
+{% capture non_govt_resources %}
+<ul>
+  <li>
+    <a href="https://howto.informationactivism.org/" target="_blank">
+      The "Info-Activism How-To Guide"
+    </a>
+  </li>
+  <li>
+    <a href="http://cfakc.tumblr.com/post/60775247513/digital-innovation-in-government-resources" target="_blank">
+      Open data resources published by Code for America's Kansas City Fellowship Team
+    </a>
+  </li>
+  <li>
+    <a href="http://charlotte.global/index.php?submenu=EconomicIndicators&src=gendocs&ref=EconomicIndicators&category=Demo_ecoProfile" target="_blank">
+      Charlotte Chamber Economic Indicators
+    </a>
+  </li>
+  <li>
+    <a href="http://charlotte.global/index.php?submenu=CharlotteDemographics&src=gendocs&ref=Charlotte%20Demographics&category=eco_dev" target="_blank">
+      Charlotte Chamber Regional Demographics
+    </a>
+  </li>
+  <li>
+    <a href="http://charlotte.global/index.php?submenu=WageRates&src=gendocs&ref=Wage_Rates&category=eco_dev" target="_blank">
+      Charlotte Chamber Detailed Wage Rates
+    </a>
+  </li>
+  <li>
+    <a href="http://www.opensecrets.org/" target="_blank">
+      OpenSecrets.org
+    </a>
+  </li>
+  <li>
+    <a href="https://sunlightfoundation.com/policy/municipal_campaign_finance_data_guidebook/" target="_blank">
+      Sunlight Foundation's Municipal Campaign Finance Data Guidebook
+    </a>
+  </li>
+</ul>
+{% endcapture %}
+
+{% capture requesting_content %}
+  <h3>Federal Data</h3>
+  <ul>
+    <li>
+      <a href="https://www.foia.gov/index.html" target="_blank">
+        FOIA.gov
+      </a> - everything about requesting data from the Federal government. 
+      Including an agency search for contact information.
+    </li>
+  </ul>
+  <hr/>
+  <h3>North Carolina Data</h3>
+  <ul>
+    <li>
+      <a href="http://www.nfoic.org/north-carolina-foia-laws" target="_blank">
+        FOINC.org
+      </a> - Great resource on what is available and where to request it
+    </li>
+  </ul>
+  <hr/>
+  <h3>Mecklenburg County</h3>
+  <ul>
+    <li>
+      <a href="http://charmeck.org/mecklenburg/county/OpenMecklenburg/recordsrequest/Pages/recordrequest.aspx" target="_blank">
+        Mecklenburg County Public Records Request Form
+      </a>
+    </li>
+  </ul>
+  <hr/>
+  <h3>City of Charlotte</h3>
+  <ul>
+    <li>
+      <a href="http://charlottenc.gov/PublicRecords/Pages/default.aspx" target="_blank">
+        City of Charlotte Public Records Request Page
+      </a>
+    </li>
+  </ul>
+{% endcapture %}
+
+{% include molecules/container-content.html id="open-data-header" class="container-bg-light" header="Data is Fuel for Civic Hacking" content=heading_content %}
+
+{% include molecules/container-content.html id="open-data-header" class="container-bg-white" header="City of Charlotte & Mecklenburg County Resources" content=charmeck_resources %}
+{% include molecules/container-content.html id="open-data-header" class="container-bg-white" header="North Carolina Resources" content=state_resources %}
+{% include molecules/container-content.html id="open-data-header" class="container-bg-white" header="Federal Resources" content=federal_resources %}
+
+{% include molecules/container-content.html id="open-data-header" class="container-bg-white" header="Non-government Resources" content=non_govt_resources %}
+{% include molecules/container-content.html id="open-data-header" class="container-bg-white" header="Requesting Data" content=requesting_content %}

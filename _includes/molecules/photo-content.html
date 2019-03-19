@@ -1,0 +1,13 @@
+<div class="row photo-content-row">
+  {%if include.photo_position == "left" %}
+  <div class="col-xs-12 col-lg-6 photo-content-bg" style="background-image: url('{{include.photo}}');">&nbsp;</div>
+  {% endif %}
+  <div class="col-xs-12 col-lg-6 photo-content-copy">
+    <h2>{{include.header}}</h2>
+    <hr/>
+    {{include.content}}
+  </div>
+  {%if include.photo_position == "right" %}
+  <div class="col-xs-12 col-lg-6 photo-content-bg" style="background-image: url('{{include.photo}}');">&nbsp;</div>
+  {% endif %}
+</div>

@@ -1,0 +1,33 @@
+<div class="container-content container-bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading">Our Leadership Team & Structure</h2><hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-xs-12 text-center">
+        <p>
+          Open Charlotte Brigade is a volunteer-driven organization and we invite anyone to help us grow the civic tech
+          movement or help steer our efforts in doing so.
+          Our core leadership team is made up of volunteers who are the most familiar and engaged in driving individual 
+          areas of our brigade.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      {% for member in site.leadership_team_members %}
+        {% include molecules/leadership-team-card.html photo=member.photo title=member.title name=member.name %}
+      {% endfor %}  
+    </div>
+    <div class="row">
+      <div class="col col-xs-12 text-center">
+        <p>
+          The best way to get involved in brigade leadership is by attending one of our leadership meetings which are generally
+          held during the second half of our <a href="/events">community nights</a>. You can view the notes from past leadership
+          meetings for 2019 <a href="/notes">here</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
