@@ -5,119 +5,73 @@ permalink: '/about/'
 header: 'About Us'
 description: "We are civic-minded residents committed to working with the City of Charlotte, Mecklenburg County, Community Organizations and more to improve accessibility and services in Charlotte. We advocate for open government, open source and open data. We use technology as a tool to provide accessible services and address community needs."
 ---
+
+{% capture mission_content %}
+<p>
+  We believe government can work for the people, by the people in the digital age. We’re a volunteer-driven organization that utilizes the tools and practices of the digital age to solve problems through advocacy, education, and projects.
+</p>
+{% endcapture %}
+
+{% capture mission_projects_content %}
+  <p>
+    Our volunteer army, Open Charlotte Brigade, creates solutions that address challenges relevant to our communities.
+    We build real solutions by <a href="https://buildwithnotfor.wordpress.com/" target="_blank">collaborating with the people they're for</a>,
+    ensuring that we're not designing the wrong systems or complicating things further. We also recognize that many 
+    problems can be resolved without code and we provide the space and connections for people of all skill sets and 
+    backgrounds to get involved.
+  </p>
+
+  <a class="btn btn-primary" href="/projects/" target="_blank">
+    Learn about our projects
+  </a>
+{% endcapture %}
+
+{% capture mission_advocacy_content %}
+<p>
+  We believe public resources including data should be open, accessible, and 
+  friendly to all residents. That means not only should residents have access to 
+  public records, but those records should be available in a way that’s easy to 
+  request, receive, read, and utilize.
+</p>
+
+<a class="btn btn-primary" href="/open-data/">
+  Learn more about open data
+</a>
+{% endcapture %}
+
+{% capture mission_education_content %}
+<p>
+  Civic Engagement begins with education. 
+  Through our events we introduce residents to resources within our city from 
+  open data to ways they can communicate and engage with government.
+</p>
+
+<a class="btn btn-primary" href="/events/">
+  Learn about our events
+</a>
+{% endcapture %}
+
+{% capture attend_content %}
+  <p>
+    We meet frequently in-person to help teams collaborate, discuss our goals, and welcome new volunteers.
+    Together we can show what's possible by building solutions that inspire change and make positive impacts
+    on our city!
+  </p>
+  <p>
+    We expect all event attendees to adhere to Open Charlotte's Code of Conduct and Anti-Harassment Policy.
+  </p>
+  <div class="text-center">
+    <a class="btn btn-lg btn-info" href="/code-of-conduct/">Review our Policies</a>
+    <a class="btn btn-lg btn-info" href="/events/">View our Upcoming Events</a>
+  </div>
+{% endcapture %}
+
+{% include molecules/container-content.html id="brigade-projects" class="container-bg-light" header="Our Vision & Mission" content=mission_content %}
+<div class="container">
+{% include molecules/photo-content.html header="We build solutions to real problems" content=mission_projects_content photo_position="right" photo="/img/about/about-projects.jpg"%}
+{% include molecules/photo-content.html header="We advocate for open data" content=mission_advocacy_content photo_position="left" photo="/img/about/about-advocacy.jpg" %}
+{% include molecules/photo-content.html header="We educate our community" content=mission_education_content photo_position="right" photo="/img/about/about-education.jpg" %}
+</div>
+
+{% include molecules/container-content.html id="brigade-attend" class="container-bg-primary" header="Let's show what's possible" content=attend_content %}
 {% include pages/about-us/leadership-team.html %}
-{% include molecules/what-we-do.html %}
-
-<!-- 
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Our Impact</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Code of Conduct</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Our Leadership Team</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Board of Directors</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Make a Donation</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Our Supporters</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h2>Join us at our next event</h2>
-        <hr class="small"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        Page under construction
-      </div>
-    </div>
-  </div>
-</div>
--->
