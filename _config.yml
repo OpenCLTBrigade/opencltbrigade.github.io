@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Open Charlotte
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://www.opencharlotte.org'
+analytics_id: '137246896-1'
 
 social:
   facebook_url: https://facebook.com/opencltbrigade
