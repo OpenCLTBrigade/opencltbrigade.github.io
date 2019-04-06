@@ -1,27 +1,30 @@
-<section id="site-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col col-xs-5 col-md-4">
-        <a class="footer-navigation" href="/about">About Open Charlotte</a>
-        <a class="footer-navigation" href="/brigade">Open Charlotte Brigade</a>
-        <a class="footer-navigation" href="/code-of-conduct">Code of Conduct</a>
+<footer>
+  <section id="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-xs-5 col-md-4">
+          <a class="footer-navigation" href="/about" alt="About Open Charlotte">About Open Charlotte</a>
+          <a class="footer-navigation" href="/brigade" alt="Open Charlotte Brigade">Open Charlotte Brigade</a>
+          <a class="footer-navigation" href="/code-of-conduct" alt="Code of Conduct">Code of Conduct</a>
+        </div>
+        <div class="col col-xs-5 col-md-4">
+          <a class="footer-navigation" href="/events" alt="Our Events">Our Events</a>
+          <a class="footer-navigation" href="/projects" target="_blank" alt="Projects">Projects</a>
+          <a class="footer-navigation" href="/blog" target="_blank" alt="Blog">Blog</a>
+        </div>
+        <div class="col col-xs-2 col-md-4 text-right">
+          {% include molecules/navigation-social-icons.html %}
+          <a class="btn btn-primary" href="/newsletter" target="_blank" alt="Subscribe to our newsletter">
+            Subscribe to our Newsletter
+          </a>
+        </div>
       </div>
-      <div class="col col-xs-5 col-md-4">
-        <a class="footer-navigation" href="/events">Our Events</a>
-        <a class="footer-navigation" href="/projects" target="_blank">Projects</a>
-        <a class="footer-navigation" href="/blog" target="_blank">Blog</a>
+      <!--
+      <div class="row">
+        <div class="col col-xs-12 text-center footer-copyright">
+        </div>
       </div>
-      <div class="col col-xs-2 col-md-4 text-right">
-        {% include molecules/navigation-social-icons.html %}
-        <a class="btn btn-primary" href="/newsletter" target="_blank">
-          Subscribe to our Newsletter
-        </a>
-      </div>
+      -->
     </div>
-    <div class="row">
-      <div class="col col-xs-12 text-center footer-copyright">
-        &copy; 2019 Open Charlotte
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
+</footer>

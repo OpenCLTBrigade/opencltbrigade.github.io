@@ -12,9 +12,11 @@
             {% assign class = 'nav-link active' %}
             {% assign active = true %}
           {% endif %}
-          <a href="{{ item.url }}" class="{{ class }}" {% if item.new_window == true %} target="_blank" ref="noreferer nofollow"{% endif %}>
-            {{ item.title }} {% if active == true %}<span class="sr-only">(current)</span>{% endif %}
-          </a>
+          <li>
+            <a href="{{ item.url }}" class="{{ class }}" {% if item.new_window == true %} target="_blank" ref="noreferer nofollow"{% endif %} alt="{{ item.title }}">
+              {{ item.title }} {% if active == true %}<span class="sr-only">(current page)</span>{% endif %}
+            </a>
+          </li>
         {% endfor %}
         </ul>
         <!-- Right nav -->
@@ -27,9 +29,11 @@
               {% assign class = 'nav-link active' %}
               {% assign active = true %}
             {% endif %}
-            <a href="{{ item.url }}" class="{{ class }}" {% if item.new_window == true %} target="_blank" ref="noreferer nofollow"{% endif %}>
-              {{ item.title }} {% if active == true %}<span class="sr-only">(current)</span>{% endif %}
-            </a>
+            <li>
+              <a href="{{ item.url }}" class="{{ class }}" {% if item.new_window == true %} target="_blank" ref="noreferer nofollow"{% endif %} alt="{{ item.title }}">
+                {{ item.title }} {% if active == true %}<span class="sr-only">(current page)</span>{% endif %}
+              </a>
+            </li>
           {% endfor %}
         </ul>
         {% include molecules/navigation-social-icons.html %}

@@ -4,11 +4,13 @@
 {% include templates/default/meta/head.html %}
 
 <body>
-  {% include templates/default/header/index.html %}
-  {% if page.header %}
+  <main>
+    {% include templates/default/header/index.html %}
+    {% if page.header %}
     {% include templates/default/page-header.html %}
-  {% endif %}
-  {{ content }}
+    {% endif %}
+    {{ content }}
+  </main>
   {% include templates/default/meta/footer.html %}
   {% include templates/default/footer/index.html %}
 </body>
