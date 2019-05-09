@@ -66,15 +66,15 @@ navigation_top_right:
     new_window: true
 
 featured_event:
-  headline: 'Join us at our next Community Night'
-  date: 'May 8th, 2019 - 7:00pm to 9:00pm'
+  headline: 'Join us at our next Project Night'
+  date: 'May 22nd, 2019 - 7:00pm to 9:00pm'
   description: 'You’re invited to help us re-image government and community services. Join our community of civic hackers, as we come together to help address problems that matter and make Charlotte more awesome.'
-  href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzhblb/'
+  href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzhbdc/'
   background_image: '/img/event-bg.jpeg'
 
 next_events:
-  community_date: 'May 11, 2019'
-  community_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzhblb/'
+  community_date: 'June 12, 2019'
+  community_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzjbqb/'
   project_date: 'May 22, 2019'
   project_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzhbdc/'
   social_date: 'Thursday, June 20 at Blue Blaze Brewing'
