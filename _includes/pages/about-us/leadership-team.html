@@ -17,8 +17,9 @@
     </div>
     <div class="row">
       {% for section in site.leadership_team_members %}
-        {% for member in section %}
-          {% include molecules/leadership-team-card.html member=member %}
+        {% for member in section[1] %}
+          {% assign info=member %}
+          {% include molecules/leadership-team-card.html member=info showTitle=true %}
         {% endfor %}
       {% endfor %}  
     </div>
