@@ -1,0 +1,92 @@
+---
+layout: default
+title: Our Leadership Team
+meta_title: Our Leadership Team
+permalink: '/leadership/'
+header: 'Our Leadership Team'
+description: "Open Charlotte Brigade is a volunteer-driven organization and we invite anyone to help us grow the civic tech movement or help steer our efforts in doing so. Our core leadership team is made up of volunteers who are the most familiar and engaged in driving individual areas of our brigade."
+---
+
+<div class="container-content container-bg-white">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading">Executive Team</h2><hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-xs-12 text-center">
+        <p>
+          Our executive team oversees operations and the general direction of our brigade, creating programs and partnerships
+          to help the organization achieve its vision.
+        </p>
+      </div>
+    </div>
+    <div class="row" style="justify-content: center; margin-bottom: 40px;">
+      {% for member in site.leadership_team_members.executive %}
+        {% include molecules/leadership-team-card.html member=member showTitle=true %}
+      {% endfor %}  
+    </div>
+
+    <!-- Technology -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading">Technology Leads</h2><hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-xs-12 text-center">
+        <p>
+          Our technology leads are volunteers that are dedicated to overseeing Open Charlotte's technical infrastructure
+          and providing technical assistance to project teams. While we try to keep our technical projects language-agnostic,
+          tech leads may suggest technologies or best practices to maximize a project's success.
+        </p>
+      </div>
+    </div>
+    <div class="row" style="justify-content: center; margin-bottom: 40px;">
+      {% for member in site.leadership_team_members.technology %}
+        {% include molecules/leadership-team-card.html member=member showTitle=false %}
+      {% endfor %}  
+    </div>
+
+    <!-- Marketing -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading">Marketing Team</h2><hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-xs-12 text-center">
+        <p>
+          Our marketing team members are evangelists of the civic tech movement and use their storytelling skills to
+          update our social media channels with civic tech updates, blog about what we're working on, and even help plan events.
+        </p>
+      </div>
+    </div>
+    <div class="row" style="justify-content: center;">
+      {% for member in site.leadership_team_members.marketing %}
+        {% include molecules/leadership-team-card.html member=member showTitle=false %}
+      {% endfor %}  
+    </div>
+  </div>
+</div>
+
+<div class="container-content container-bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading">Want to get Involved?</h2><hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-xs-12 text-center">
+        <p>
+          The best way to get involved in brigade leadership is by attending one of our leadership meetings which are generally
+          held during the second half of our <a href="/events">community nights</a>. You can view the notes from past leadership
+          meetings for 2019 <a href="/notes">here</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

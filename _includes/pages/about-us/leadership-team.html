@@ -16,8 +16,10 @@
       </div>
     </div>
     <div class="row">
-      {% for member in site.leadership_team_members %}
-        {% include molecules/leadership-team-card.html photo=member.photo title=member.title name=member.name %}
+      {% for section in site.leadership_team_members %}
+        {% for member in section %}
+          {% include molecules/leadership-team-card.html member=member %}
+        {% endfor %}
       {% endfor %}  
     </div>
     <div class="row">

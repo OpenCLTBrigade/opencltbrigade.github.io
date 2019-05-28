@@ -25,5 +25,9 @@ div.container-content {
   &.container-bg-primary {
     background: $primary;
     color: $white;
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
   }
 }
