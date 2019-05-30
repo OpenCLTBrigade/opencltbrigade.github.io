@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+js/react
+node_modules
+.sass-cache

@@ -1,5 +1,8 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/react/vendor.js"></script>
+<script type="text/javascript" src="/js/react/common.js"></script>
+{% if page.js_view %}<script type="text/javascript" src="/js/react/{{ page.js_view }}.js"></script>{% endif %}
 {% if jekyll.environment == "production" %}
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-{{site.analytics_id}}"></script>
 <script>
