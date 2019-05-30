@@ -1,0 +1,35 @@
+{
+  "name": "opencltbrigade.github.io",
+  "version": "1.0.0",
+  "description": "## Get Running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests to run\"",
+    "build": "webpack --mode production && bundle exec jekyll build",
+    "dev": "webpack --watch | bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenCLTBrigade/opencltbrigade.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenCLTBrigade/opencltbrigade.github.io/issues"
+  },
+  "homepage": "https://github.com/OpenCLTBrigade/opencltbrigade.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
