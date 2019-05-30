@@ -4,7 +4,7 @@
   "description": "## Get Running",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests to run\"",
     "build": "webpack --mode production && bundle exec jekyll build",
     "dev": "webpack --watch | bundle exec jekyll serve"
   },
