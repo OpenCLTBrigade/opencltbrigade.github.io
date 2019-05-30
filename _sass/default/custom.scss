@@ -9,6 +9,21 @@
   }
 }
 
+/* Global announcement banner */
+.global-cta-banner {
+  padding: 20px 0;
+  background-color: rgba(255, 201, 3, 0.2);
+  text-align: center;
+  p {
+    margin: 0;
+    a {
+      color: rgb(34, 34, 34);
+      text-decoration: none;
+      font-size: 1.640625rem;
+    }
+  }
+}
+
 /* Services */
 
 .services {
