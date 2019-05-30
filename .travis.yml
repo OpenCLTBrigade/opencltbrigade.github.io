@@ -8,6 +8,8 @@ before_install:
   - gem install bundler
   - bundle check || bundle install
 
+script: npm run build
+
 deploy:
   provider: pages
   skip_cleanup: true
