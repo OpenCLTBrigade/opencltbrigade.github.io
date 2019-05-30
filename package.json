@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "dev": "webpack --watch"
+    "build": "webpack --mode production && bundle exec jekyll build",
+    "dev": "webpack --watch | bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
