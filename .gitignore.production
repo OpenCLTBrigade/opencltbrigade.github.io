@@ -1,4 +1,6 @@
-*
+/*
+/*/
+!/_site/
 !.gitignore
 !LICENSE
-!_site/*
+
