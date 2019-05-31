@@ -2,11 +2,18 @@ language: node_js
 node_js:
   - "8.9.4"
 
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+cache: bundler
+
 before_install:
   - rvm install 2.6.0
   - rvm use 2.6.0
   - gem install bundler
   - bundle check || bundle install
+  - mv .gitignore.production .gitignore
 
 script: npm run build
 
