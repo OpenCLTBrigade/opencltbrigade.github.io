@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    TestView: './react/views/TestView',
-    TestView2: './react/views/TestView2',
+    TestView: './_react/views/TestView',
+    TestView2: './_react/views/TestView2',
   },
   output: {
     path: path.join(__dirname, "/js/react"),
@@ -16,7 +16,7 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: "babel-loader",
         include: [
-          path.resolve(__dirname, "react")
+          path.resolve(__dirname, "_react")
         ]
       }
     ]
