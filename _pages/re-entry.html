@@ -1,0 +1,26 @@
+---
+layout: default
+title: Re-Entry Project
+meta_title: Re-Entry Project
+permalink: '/re-entry/'
+header: 'Re-Entry Project'
+description: "Coming soon"
+---
+
+{% capture sample_content_a %}
+  <p>
+    Sample content
+  </p>
+{% endcapture %}
+
+{% capture sample_content_b %}
+
+{% endcapture %}
+
+
+{% include molecules/container-content.html id="re-entry-heading" class="container-bg-light" header="Sample Heading" content=sample_content_a %}
+
+
+<div class="container">
+{% include molecules/photo-content.html header="Sample" content=sample_content_b photo_position="right" photo="/img/about/about-projects.jpg"%}
+</div>
