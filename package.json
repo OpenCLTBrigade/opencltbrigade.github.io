@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests to run\"",
-    "build": "webpack --mode production && bundle exec jekyll build",
+    "get:events": "bundle exec jekyll meetup download",
+    "build": "npm run get:events && webpack --mode production && bundle exec jekyll build",
     "dev": "webpack --watch | bundle exec jekyll serve"
   },
   "repository": {

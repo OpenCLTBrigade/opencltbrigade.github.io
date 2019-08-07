@@ -1,1 +1,6 @@
-{% include molecules/featured-event.html description=site.featured_event.description date=site.featured_event.date headline=site.featured_event.headline background_image=site.featured_event.background_image href=site.featured_event.href %}
+{% assign upcoming = site.data['events']['upcoming'] %}
+{% assign event_date = upcoming.local_date | date: "%B %-d, %Y" %}
+{% assign event_url = "https://www.meetup.com/Open-Charlotte-Brigade/events/" | append: upcoming.id %}
+{% assign event_headline = "Join us at our next " | append: upcoming.name %}
+{% include molecules/featured-event.html description=site.featured_event.description date=event_date headline=event_headline background_image=site.featured_event.background_image href=event_url %}
+<!-- {% include molecules/featured-event.html description=site.featured_event.description date=site.featured_event.date headline=site.featured_event.headline background_image=site.featured_event.background_image href=site.featured_event.href %} -->

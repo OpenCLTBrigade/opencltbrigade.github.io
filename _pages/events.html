@@ -9,6 +9,11 @@ description: "We frequently hold public meetings to collaborate on projects, hol
 
 {% include molecules/global-featured-event.html %}
 
+
+{% assign community_night = site.data['events'] | where:"name","Community Night" | sort: "time"  %}
+{% assign project_night = site.data['events'] | where:"name","Project Night"  | sort: "time"%}
+{% assign happy_hour = site.data['events'] | where:"name","Open House Happy Hour" | sort: "time" %}
+
 <div id="events-page">
   <div class="container-content section-header container-bg-light">
     <div class="container">
@@ -39,12 +44,14 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           Our leadership team also holds a meeting later in the night to plan our future Brigade events, communications,
           and direction.
         </p>
+        {% if community_night[0] %}
         <p>
-          Our next community night is {{site.next_events.community_date}}.
+          Our next community night is {{ community_night[0].local_date | date: "%B %-d, %Y"}}.
         </p>
-        <a class="btn btn-danger" href="{{site.next_events.community_url}}" target="_blank">
+        <a class="btn btn-danger" href="https://www.meetup.com/Open-Charlotte-Brigade/events/{{ community_night[0].id }}/" target="_blank">
           Click here to RSVP
         </a>
+        {% endif %}
       </div>
       <div class="col-xs-12 col-lg-6 event-bg community-night">&nbsp;</div>
     </div>
@@ -61,12 +68,14 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           You will have the opportunity to learn more about what we do through a quick orientation, get connected to a 
           project, discuss how to start your own project, or connect with our leadership team.
         </p>
+        {% if project_night[0] %}
         <p>
-          Our next project night is {{site.next_events.project_date}}.
+          Our next project night is {{ project_night[0].local_date | date: "%B %-d, %Y"}}.
         </p>
-        <a class="btn btn-danger" href="{{site.next_events.project_url}}" target="_blank">
+        <a class="btn btn-danger" href="https://www.meetup.com/Open-Charlotte-Brigade/events/{{ project_night[0].id }}/" target="_blank">
           Click here to RSVP
         </a>
+        {% endif %}
       </div>
     </div>
 
@@ -82,12 +91,15 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           allowing attendees to unwind and get to know the people they're working with.
           Just show up, grab a name tag, and join a conversation!
         </p>
+
+        {% if happy_hour[0] %}
         <p>
-          Our next happy hour is {{site.next_events.social_date}}.
+          Our next happy hour is {{ happy_hour[0].local_date | date: "%B %-d, %Y"}}.
         </p>
-        <a class="btn btn-danger" href="{{site.next_events.social_url}}" target="_blank">
+        <a class="btn btn-danger" href="https://www.meetup.com/Open-Charlotte-Brigade/events/{{ happy_hour[0].id }}/" target="_blank">
           Click here to RSVP
         </a>
+        {% endif %}
       </div>
       <div class="col-xs-12 col-lg-6 event-bg socials">&nbsp;</div>
     </div>

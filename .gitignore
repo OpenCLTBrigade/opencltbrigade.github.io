@@ -4,3 +4,4 @@ _site
 js/react
 node_modules
 .sass-cache
+_data

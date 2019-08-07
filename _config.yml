@@ -36,6 +36,10 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
+meetup:
+  collection_name: events
+  urlname: 'Open-Charlotte-Brigade'
+
 pagination:
   permalink: '/page/:num/'
   sort_reverse: true
@@ -61,9 +65,6 @@ navigation_top_left:
     url: /about/
 
 navigation_top_right:
-  - title: 'Next Meetup'
-    url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzlbsb/'
-    new_window: true
 
 featured_event:
   headline: 'Join us at our next Community Night'
@@ -71,14 +72,6 @@ featured_event:
   description: 'You’re invited to help us re-image government and community services. Join our community of civic hackers, as we come together to help address problems that matter and make Charlotte more awesome.'
   href: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzlbsb/'
   background_image: '/img/event-bg.jpeg'
-
-next_events:
-  community_date: 'August 14, 2019'
-  community_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/hvprpqyzlbsb/'
-  project_date: 'August 28, 2019'
-  project_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/sqmrpqyzlblc/'
-  social_date: 'Thursday, August 22 at Sycamore Brewing'
-  social_url: 'https://www.meetup.com/Open-Charlotte-Brigade/events/257929177/'
 
 leadership_team_members:
   executive:

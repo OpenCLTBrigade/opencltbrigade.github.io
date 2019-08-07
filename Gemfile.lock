@@ -29,6 +29,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-meetup (0.1.1)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -71,10 +72,11 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
+  jekyll-meetup
   jekyll-redirect-from (~> 0.14)
   jekyll-sitemap (~> 1.3)
   minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
