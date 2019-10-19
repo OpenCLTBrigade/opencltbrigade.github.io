@@ -1,0 +1,37 @@
+#home-hero {
+  background-color: #2e9fd7;
+  color: #fefefe;
+  .hero-photo {
+    background: url('/img/trainyard.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 800px;
+  }
+
+  .hero-text {
+    padding: 50px 25px;
+    h1 {
+      line-height: 1.5;
+    }
+    hr {
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      margin: 40px 0;
+    }
+    p {
+      font-weight: bold;
+    }
+
+    .links-container {
+      margin: 80px auto;
+      .intro-card {
+        border: 1px solid #fefefe;
+        width: 100%;
+        margin: 40px auto;
+        padding: 20px;
+      }
+
+    }
+  }
+}
