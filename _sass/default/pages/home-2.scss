@@ -8,10 +8,14 @@
     background-size: cover;
     -o-background-size: cover;
     height: 800px;
+
+    @media screen and (max-width: 1350px) {
+      height: 900px;
+    }
   }
 
   .hero-text {
-    padding: 50px 25px;
+    padding: 50px 25px 0 25px;
     h1 {
       line-height: 1.5;
     }
@@ -30,6 +34,18 @@
         width: 100%;
         margin: 40px auto;
         padding: 20px;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.05);
+        }
+      }
+
+
+      a {
+        color: #fefefe;
+        text-decoration: none;
+        .intro-card-icon {
+          padding-right: 12px;
+        }
       }
 
     }

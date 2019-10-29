@@ -6,10 +6,10 @@ permalink: '/home-2/'
 <section id="home-hero">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-5 hero-photo">
+      <div class="d-none d-md-block col-md-4 col-sm-5 hero-photo">
         &nbsp;
       </div>
-      <div class="col-sm-5 hero-text">
+      <div class="col-xs-12 col-md-8 col-lg-8 col-xl-6 hero-text">
         <h1>Bridging technology and community for a thriving and equitable Charlotte</h1>
         <hr/>
         <p>
@@ -20,15 +20,21 @@ permalink: '/home-2/'
         </p>
         
         <div class="links-container">
-          <div class="intro-card">
-            <i class="fas fa-users"></i> Test content here
-          </div>
-          <div class="intro-card">
-            <i class="fas fa-users"></i> Test content here
-          </div>
-          <div class="intro-card">
-            <i class="fas fa-users"></i> Test content here
-          </div>
+          <a href="/events">
+            <div class="intro-card">
+              <i class="intro-card-icon fas fa-calendar"></i> Join us at our next event
+            </div>
+          </a>
+          <a href="/about">
+            <div class="intro-card">
+              <i class="intro-card-icon fas fa-info-circle"></i> Learn about what we do
+            </div>
+          </a>
+          <a href="/projects">
+            <div class="intro-card">
+              <i class="intro-card-icon fas fa-project-diagram"></i> View our projects
+            </div>
+          </a>
 
         </div>
       </div>
@@ -36,6 +42,5 @@ permalink: '/home-2/'
   </div>
 </section>
 
-{% include molecules/global-featured-event.html %}
 {% include molecules/what-we-do.html %}
-{% include pages/index/about.html %}
+{% include molecules/global-featured-event.html %}
