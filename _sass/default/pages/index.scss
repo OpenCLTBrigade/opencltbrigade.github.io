@@ -51,3 +51,29 @@
     }
   }
 }
+
+#election-day-header {
+  background: url('https://voteclt.com/assets/img/hero-bg.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 36em;
+
+  @media screen and (max-width: 1350px) {
+    height: 600px;
+  }
+
+  .cover {
+    height: 100%;
+    background: rgba(0,102,51,0.8);
+  }
+  
+  .vote-clt-text {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: #fefefe;
+    margin: auto;
+  }
+}
