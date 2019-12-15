@@ -7,12 +7,13 @@ header: 'Join us at an event!'
 description: "We frequently hold public meetings to collaborate on projects, hold community discussions and design sessions, and welcome new volunteers."
 ---
 
+{% comment %}
 {% include molecules/global-featured-event.html %}
-
 
 {% assign community_night = site.data['events'] | where:"name","Community Night" | sort: "time"  %}
 {% assign project_night = site.data['events'] | where:"name","Project Night"  | sort: "time"%}
 {% assign happy_hour = site.data['events'] | where:"name","Open House Happy Hour" | sort: "time" %}
+{% endcomment %}
 
 <div id="events-page">
   <div class="container-content section-header container-bg-light">
@@ -22,9 +23,15 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           <h2>Open Charlotte Brigade Events</h2>
           <hr/>
           <p style="text-align: center;">
+            We hold a series of events to engage community members and help build a more
+            connected and accessible Charlotte. We're currently taking our annual holiday recess form events but 
+            <a href="https://www.meetup.com/Open-Charlotte-Brigade/events/" target="_blank">
+            you join our Meetup page to be notified when we return in January</a>.
+            {% comment %}
             Open Charlotte Brigade holds the following event series' to engage community members and help build a more
             connected and accessible Charlotte. You can also <a href="https://www.meetup.com/Open-Charlotte-Brigade/events/" target="_blank">
             find our full event schedule on MeetUp by clicking here</a>.
+            {% endcomment %}
           </p>
         </div>
       </div>
@@ -44,6 +51,7 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           Our leadership team also holds a meeting later in the night to plan our future Brigade events, communications,
           and direction.
         </p>
+        {% comment %}
         {% if community_night[0] %}
         <p>
           Our next community night is {{ community_night[0].local_date | date: "%B %-d, %Y"}}.
@@ -52,6 +60,7 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           Click here to RSVP
         </a>
         {% endif %}
+        {% endcomment %}
       </div>
       <div class="col-xs-12 col-lg-6 event-bg community-night">&nbsp;</div>
     </div>
@@ -68,6 +77,7 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           You will have the opportunity to learn more about what we do through a quick orientation, get connected to a 
           project, discuss how to start your own project, or connect with our leadership team.
         </p>
+        {% comment %}
         {% if project_night[0] %}
         <p>
           Our next project night is {{ project_night[0].local_date | date: "%B %-d, %Y"}}.
@@ -76,6 +86,7 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           Click here to RSVP
         </a>
         {% endif %}
+        {% endcomment %}
       </div>
     </div>
 
@@ -91,7 +102,7 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           allowing attendees to unwind and get to know the people they're working with.
           Just show up, grab a name tag, and join a conversation!
         </p>
-
+        {% comment %}
         {% if happy_hour[0] %}
         <p>
           Our next happy hour is {{ happy_hour[0].local_date | date: "%B %-d, %Y"}}.
@@ -100,6 +111,7 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           Click here to RSVP
         </a>
         {% endif %}
+        {% endcomment %}
       </div>
       <div class="col-xs-12 col-lg-6 event-bg socials">&nbsp;</div>
     </div>
@@ -115,7 +127,6 @@ description: "We frequently hold public meetings to collaborate on projects, hol
           Hack for Change is a big one day civic design-a-thon Open Charlotte holds to celebrate National Day of 
           Civic Hacking. On this day, organizations all over the nation bring together community members and civic 
           leaders to work with our local governments and tackle some our toughest challenges. 
-          We'll have more details on our 2019 event later this year!
         </p>
 
         <p>
