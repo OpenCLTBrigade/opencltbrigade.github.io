@@ -76,12 +76,12 @@ featured_event:
 leadership_team_members:
   executive:
     - name: 'Jill Bjers'
-      title: 'Director / Brigade Captain'
+      title: 'Executive Director'
       photo: '/img/about/leadership/jill.jpg'
       email: 'jill@opencharlotte.org'
       linkedin: 'jillzey'
     - name: 'Andrew Natoli'
-      title: 'Brigade Co-Captain'
+      title: 'Co-Director'
       photo: '/img/about/leadership/andrew.jpg'
       email: 'andrew@opencharlotte.org'
       linkedin: 'andrewnatoli'
