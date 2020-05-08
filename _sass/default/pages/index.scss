@@ -1,5 +1,5 @@
 #home-hero {
-  background-color: #2e9fd7;
+  background-color: #1e98d1;
   color: #fefefe;
   .hero-photo {
     background: url('/img/trainyard.jpg') no-repeat center center scroll;
@@ -39,7 +39,6 @@
         }
       }
 
-
       a {
         color: #fefefe;
         text-decoration: none;
@@ -47,7 +46,6 @@
           padding-right: 12px;
         }
       }
-
     }
   }
 }
@@ -66,9 +64,9 @@
 
   .cover {
     height: 100%;
-    background: rgba(0,102,51,0.8);
+    background: rgba(0, 102, 51, 0.8);
   }
-  
+
   .vote-clt-text {
     position: absolute;
     top: 200px;

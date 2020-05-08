@@ -4,9 +4,12 @@
       <div class="row">
         <div class="col-sm">
           <h1>{{include.headline}}</h1>
-          {% if include.date %}<h2>{{include.date}}</h2>{% endif %}
-          {% if include.description %}<p class="lead">{{include.description}}</p>{% endif %}
-          <a class="btn btn-lg btn-danger" href="{{include.href}}" target="_blank" alt="Click here to RSVP">
+          {% if include.date %}
+          <h2>{{include.date}}</h2>
+          {% endif %} {% if include.description %}
+          <p class="lead">{{include.description}}</p>
+          {% endif %}
+          <a class="btn btn-lg btn-info" href="{{include.href}}" target="_blank" alt="Click here to RSVP">
             Click here to RSVP
           </a>
         </div>

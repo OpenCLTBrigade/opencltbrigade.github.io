@@ -1,7 +1,7 @@
 /* About */
 
 .about-section {
-  background-color: #2e9fd7;
+  background-color: #1e98d1;
   padding: 50px 0;
   color: #fefefe;
   @include media-breakpoint-up(xl) {
@@ -59,4 +59,12 @@
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2c292a;
+  &.active {
+    color: #3e7b98;
+    font-weight: 400;
+  }
 }
