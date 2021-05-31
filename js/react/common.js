@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{2:function(n,e,i){"use strict";var o=i(0);e.a=function(){return o.createElement("div",null,"This is a sample component.")}}}]);
